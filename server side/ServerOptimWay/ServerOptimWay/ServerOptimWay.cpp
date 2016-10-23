@@ -58,7 +58,7 @@ int main()
 	}
 
 
-	result = bind(listen_socket, addr->ai_addr, (int)addr->ai_addrlen);
+	bind(listen_socket, addr->ai_addr, (int)addr->ai_addrlen);
 
 	if (result == SOCKET_ERROR) {
 		cerr << "bind failed with error: " << WSAGetLastError() << "\n";
@@ -75,7 +75,7 @@ int main()
 		return 1;
 	}
 
-	const int max_client_buffer_size = 1024;
+	
 	char buf[max_client_buffer_size];
 	ThreadPool* pool = new ThreadPool(10);
 

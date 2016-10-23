@@ -54,6 +54,15 @@
     <ClInclude Include="SenderImpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="graph_dll.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserOptWay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -61,6 +70,9 @@
     </ClCompile>
     <ClCompile Include="ServerOptimWay.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="un2.cpp">
+      <Filter>Header Files\utils</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

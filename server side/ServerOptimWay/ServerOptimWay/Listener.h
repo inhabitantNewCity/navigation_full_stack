@@ -3,6 +3,7 @@
 class Listener
 {
 public:
-	virtual Coord* calculate(Coord start, Coord finish, int* countVertex) = 0;
-	virtual ~Listener();
+	Listener() {};
+	virtual Coord* calculate(int* countVertex) = 0;
+	virtual ~Listener() {};
 };

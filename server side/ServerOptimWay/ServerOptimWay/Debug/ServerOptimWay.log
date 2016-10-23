@@ -1,6 +1,56 @@
 ﻿  ServerOptimWay.cpp
 c:\users\tmp\desktop\computer\lening\scientific work\implementation\server side\serveroptimway\serveroptimway\serveroptimway.cpp(8): warning C4005: '_WIN32_WINNT': macro redefinition
   c:\program files (x86)\windows kits\8.1\include\shared\sdkddkver.h(200): note: see previous definition of '_WIN32_WINNT'
-ServerOptimWay.obj : error LNK2019: unresolved external symbol "public: __thiscall ServletImpl::ServletImpl(class ThreadPool *)" (??0ServletImpl@@QAE@PAVThreadPool@@@Z) referenced in function "public: class Servlet * __thiscall ServletFactory::getDefoultServlet(class ThreadPool *)" (?getDefoultServlet@ServletFactory@@QAEPAVServlet@@PAVThreadPool@@@Z)
-ServerOptimWay.obj : error LNK2019: unresolved external symbol "public: __thiscall ServletFactory::ServletFactory(void)" (??0ServletFactory@@QAE@XZ) referenced in function "public: __thiscall ThreadPool::ThreadPool(int)" (??0ThreadPool@@QAE@H@Z)
-C:\Users\Tmp\Desktop\computer\lening\scientific work\implementation\server side\ServerOptimWay\Debug\ServerOptimWay.exe : fatal error LNK1120: 2 unresolved externals
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(737): error C2280: 'std::thread::thread(const std::thread &)': attempting to reference a deleted function
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thread(71): note: see declaration of 'std::thread::thread'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,std::thread&>(_Objty *,std::thread &)' being compiled
+          with
+          [
+              _Ty=std::thread,
+              _Objty=std::thread
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,std::thread&>(_Objty *,std::thread &)' being compiled
+          with
+          [
+              _Ty=std::thread,
+              _Objty=std::thread
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(996): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::thread&>(std::allocator<_Ty> &,_Objty *,std::thread &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::thread>,
+              _Ty=std::thread,
+              _Objty=std::thread
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(995): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::thread&>(std::allocator<_Ty> &,_Objty *,std::thread &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::thread>,
+              _Ty=std::thread,
+              _Objty=std::thread
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1284): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,std::thread&>(_Ty *,std::thread &)' being compiled
+          with
+          [
+              _Ty=std::thread
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1283): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,std::thread&>(_Ty *,std::thread &)' being compiled
+          with
+          [
+              _Ty=std::thread
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1276): note: while compiling class template member function 'void std::vector<std::thread,std::allocator<_Ty>>::push_back(const std::thread &)'
+          with
+          [
+              _Ty=std::thread
+          ]
+  c:\users\tmp\desktop\computer\lening\scientific work\implementation\server side\serveroptimway\serveroptimway\servlet.h(101): note: see reference to function template instantiation 'void std::vector<std::thread,std::allocator<_Ty>>::push_back(const std::thread &)' being compiled
+          with
+          [
+              _Ty=std::thread
+          ]
+  c:\users\tmp\desktop\computer\lening\scientific work\implementation\server side\serveroptimway\serveroptimway\servlet.h(26): note: see reference to class template instantiation 'std::vector<std::thread,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=std::thread
+          ]

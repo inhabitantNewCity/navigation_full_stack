@@ -10,6 +10,6 @@
 #include <stdio.h>
 #include <tchar.h>
 
-
+const int max_client_buffer_size = 1024;
 
 // TODO: reference additional headers your program requires here
