@@ -1,0 +1,6 @@
+﻿  ServerOptimWay.cpp
+c:\users\tmp\desktop\computer\lening\scientific work\implementation\server side\serveroptimway\serveroptimway\serveroptimway.cpp(8): warning C4005: '_WIN32_WINNT': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\shared\sdkddkver.h(200): note: see previous definition of '_WIN32_WINNT'
+ServerOptimWay.obj : error LNK2019: unresolved external symbol "public: __thiscall ServletImpl::ServletImpl(class ThreadPool *)" (??0ServletImpl@@QAE@PAVThreadPool@@@Z) referenced in function "public: class Servlet * __thiscall ServletFactory::getDefoultServlet(class ThreadPool *)" (?getDefoultServlet@ServletFactory@@QAEPAVServlet@@PAVThreadPool@@@Z)
+ServerOptimWay.obj : error LNK2019: unresolved external symbol "public: __thiscall ServletFactory::ServletFactory(void)" (??0ServletFactory@@QAE@XZ) referenced in function "public: __thiscall ThreadPool::ThreadPool(int)" (??0ThreadPool@@QAE@H@Z)
+C:\Users\Tmp\Desktop\computer\lening\scientific work\implementation\server side\ServerOptimWay\Debug\ServerOptimWay.exe : fatal error LNK1120: 2 unresolved externals
